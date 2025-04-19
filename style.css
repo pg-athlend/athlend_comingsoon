@@ -1,0 +1,149 @@
+:root {
+    --primary-green: #32a852;
+    --text-color: #333;
+    --bg-color: #ffffff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    background-image: url('New\ Product\ Coming\ Soon\ Instagram\ Post.jpg'); /* replace with your image path */
+    background-size: cover;       /* scales the image to cover entire body */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* avoids repeating the image */
+    height: 100vh; 
+    color: var(--text-color);
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 700px;
+    width: 100%;
+  }
+  
+  .logo-img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 20px auto;
+    display: block;
+    border-radius: 50%;
+  }
+  
+  .logo {
+    font-family: 'Gilda Display', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-green);
+    margin-bottom: 0.3rem;
+  }
+  
+  .tagline {
+    font-family: 'Gilda Display', serif;
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 1.8rem;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .notify form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .notify input,
+  .notify textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 2px solid var(--primary-green);
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    outline: none;
+    resize: vertical;
+  }
+  
+  .notify textarea {
+    min-height: 100px;
+  }
+  
+  .notify button {
+    padding: 0.75rem 1.2rem;
+    border: none;
+    background-color: var(--primary-green);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notify button:hover {
+    background-color: #289644;
+  }
+  
+  .contact {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .contact h3 {
+    color: var(--primary-green);
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .contact a:hover {
+    color: var(--primary-green);
+  }
+  
+  @media (max-width: 500px) {
+    .logo {
+      font-size: 2.2rem;
+    }
+  
+    .tagline {
+      font-size: 1.2rem;
+    }
+  
+    .notify input, .notify button {
+      width: 100%;
+      border-radius: 8px;
+    }
+  
+    .notify {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .logo-img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  

@@ -1,66 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Athlend India</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="athlend_logo.png" type="png">
+  <title>ATHLEND | Coming Soon</title>
 
-    .video-container {
-      position: relative;
-      width: 100%;
-      height: auto;
-      overflow: hidden;
-    }
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
 
-    .video-container video {
-      width: 100%;
-      height: auto;
-      display: block;
-      object-fit: cover;
-    }
-
-    .contact-info a {
-  color: #007BFF;
-  text-decoration: none;
-  margin: 0 5px;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
-}
-
-    @media (max-width: 768px) {
-      .video-container video {
-        height: 80vh;
-      }
-
-      .contact-info {
-        font-size: 1rem;
-        padding: 15px;
-      }
-    }
-  </style>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  
+  <div class="container">
+    <img src="athlend_logo.png" alt="Athlend Logo" class="logo-img" />
 
-  <div class="video-container">
-    <video autoplay muted loop playsinline>
-      <source src="Black White Modern Coming Soon Your Story.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
+    <h1 class="logo">ATHLEND</h1>
+    <h2 class="tagline">'Grounds That Keep You Going'</h2>
 
-  <div class="contact-info">
-    Contact us at :- 
-    <a href="tel:+919868097145">+91 9868097145</a>, 
-    <a href="tel:+919582442774">+91 9582442774</a>, 
-    <a href="tel:+919318326662">+91 9318326662</a>
+    <p class="description">
+      We’re building a platform that helps you book school sports grounds during their off-hours at your convinience. <br>Stay tuned!
+    </p>
+
+    <div class="notify">
+      <form
+  action="https://formspree.io/f/xdkeqkvo"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    </div>
+    
+
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <p>📞  <a href="tel:9582442774">9582442774</a> ,<a href="tel:9868097145">9868097145</a>,<a href="tel:9318326662">9318326662</a></p>
+      <p>✉️ <a href="mailto:athlendconnect@gmail.com">athlendconnect@gmail.com</a></p>
+    </div>
   </div>
 </body>
 </html>
