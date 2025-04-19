@@ -12,7 +12,7 @@
   
   body {
     background-color: var(--bg-color);
-    background-image: url('New\ Product\ Coming\ Soon\ Instagram\ Post.jpg'); /* replace with your image path */
+    background-image: url('coming_soon.jpg'); /* replace with your image path */
     background-size: cover;       /* scales the image to cover entire body */
     background-position: center;  /* centers the image */
     background-repeat: no-repeat; /* avoids repeating the image */
